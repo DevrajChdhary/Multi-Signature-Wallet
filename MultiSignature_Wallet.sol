@@ -4,7 +4,6 @@ pragma solidity >=0.8.2 <0.9.0;
 contract MultiSig{
     address[] public owners;
     uint public numConfirm;
-
     struct Transaction{
         address to;
         uint value;
